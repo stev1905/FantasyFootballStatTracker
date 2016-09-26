@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Latest compiled and minified CSS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="js/app.js"></script>
+	<title>Fantasy Football API</title>
+</head>
+<body>
+<div class="container">
+	<section class="introduction">
+	<h1>Fantasy Football Stat Tracker</h1>
+		 <select ng-model='Weeklist' class='form-control' id='week'>
+	            <option value='1'>Week 1</option>
+	            <option value='2'>Week 2</option>
+	            <option value='3'>Week 3</option>
+	            <option value='4'>Week 4</option>
+	            <option value='5'>Week 5</option>
+	            <option value='6'>Week 6</option>
+	            <option value='7'>Week 7</option>
+	            <option value='8'>Week 8</option>
+	            <option value='9'>Week 9</option>
+	            <option value='10'>Week 10</option>
+	            <option value='11'>Week 11</option>
+	            <option value='12'>Week 12</option>
+	            <option value='13'>Week 13</option>
+	            <option value='14'>Week 14</option>
+	            <option value='15'>Week 15</option>
+	            <option value='16'>Week 16</option>
+	          </select>
+	<button type="button" class="button">Submit</button>
+	<br>
+	</section>
+	<section class="body">
+	<div class="section-header">Who's Hot?</div>
+			<div class="rankings">
+				<h4 class="header">QB Rankings</h4>
+				<table id= "QBtable">
+
+				</table>
+			</div>
+			<div class="rankings">
+				<h4 class="header">RB Rankings</h4>
+				<table id="RBtable">
+				</table>
+			</div>
+			<div class="rankings">
+				<h4 class="header">WR Rankings</h4>
+				<table id="WRtable">
+				</table>
+			</div>
+			<div class="rankings">
+				<h4 class="header">TE Rankings</h4>
+				<table id="TEtable">
+				</table>
+			</div>
+			<div class="rankings">
+				<h4 class="header">DEF Rankings</h4>
+				<table id="DEFtable">
+				</table>
+			</div>
+			<div class="rankings">
+				<h4 class="header">K Rankings</h4>
+				<table id="Ktable">
+				</table>
+			</div>
+	</section>
+	<br>
+	<section class="body2">
+	<div class="section-header">Who's Cold?</div>
+			<div class="rankings">
+				<h4 class="header">QB Rankings</h4>
+				<table id="CQBtable">
+
+				</table>
+			</div>
+			<div class="rankings">
+				<h4 class="header">RB Rankings</h4>
+				<table id="CRBtable">
+				</table>		
+			</div>
+			<div class="rankings">
+				<h4 class="header">WR Rankings</h4>
+				<table id="CWRtable">
+				</table>
+			</div>
+			<div class="rankings">
+				<h4 class="header">TE Rankings</h4>
+				<table id="CTEtable">
+				</table>
+			</div>
+			<div class="rankings">
+				<h4 class="header">DEF Rankings</h4>
+				<table id="CDEFtable">
+				</table>
+			</div>
+			<div class="rankings">
+				<h4 class="header">K Rankings</h4>
+				<table id="CKtable">
+				</table>
+			</div>
+	</section>
+</div>
+<section class="footer">
+</section>
+	
+	
+</body>
+</html>

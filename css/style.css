@@ -1,0 +1,80 @@
+html {
+  box-sizing: border-box;
+}
+body { 
+	   background-image: url(../images/ftracker.jpg); 
+	   background-size: cover; 
+	   background-position: center;
+	   padding-bottom: 10%;
+	}
+
+div.container{
+	width: 95%;
+	margin-top: 2%;
+	color: white;
+	background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    border-style:outset;
+	border-radius: 25px;
+	padding: 1%;
+}
+table{
+	text-align: left;
+	width: 210px;
+	border-style: solid;
+	border-width: 2px;
+}
+
+td{
+	font-size: 14px;
+	right-padding: 20%;
+	
+}
+
+.header{
+	text-align: center;
+	border-bottom-style: double;
+	width:100%;
+}
+div.rankings{
+	list-style: none;
+	display: inline-block;
+	width:16.4%;
+	text-align: center;
+}
+ul{
+	list-style: none;
+	text-align: left;
+}
+}
+.section{
+	display: inline-block;
+}
+.section-header{
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+}
+select.form-control{
+	width:35%;
+}
+div.rankingset{
+	text-align: center;
+}
+.body{
+	text-align: center;
+}
+button.button{
+	background-color:darkred;
+	border-color: darkred;
+}
+div.section-header{
+	border-style:solid;
+	border-width: 2px;
+}
+.body{
+	border-style:ridge;
+}
+.body2{
+	border-style:ridge;
+}
